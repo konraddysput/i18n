@@ -1,6 +1,6 @@
-# Developer Environment
+# Środowisko developerski
 
-Electron development is essentially Node.js development. To turn your operating system into an environment capable of building desktop apps with Electron, you will merely need Node.js, npm, a code editor of your choice, and a rudimentary understanding of your operating system's command line client.
+Electron bazuje na środowisku uruchomieniowym Node.js. W celu przygotowania systemu operacyjnego do budowania aplikacji bazujących na Electronie, należy zainstalować Node.js, npm, wybrane IDE oraz znać wierszu poleceń twojego systemu operacyjnego.
 
 ## Konfigurowanie systemu macOS
 
@@ -8,9 +8,9 @@ Electron development is essentially Node.js development. To turn your operating 
 
 Najpierw należy zainstalować najnowszą wersję programu Node.js. We recommend that you install either the latest `LTS` or `Current` version available. Visit [the Node.js download page](https://nodejs.org/en/download/) and select the `macOS Installer`. While Homebrew is an offered option, but we recommend against it - many tools will be incompatible with the way Homebrew installs Node.js.
 
-Once downloaded, execute the installer and let the installation wizard guide you through the installation.
+Po pobraniu należy uruchomić instalator i przejść proces instalacji.
 
-Once installed, confirm that everything works as expected. Find the macOS `Terminal` application in your `/Applications/Utilities` folder (or by searching for the word `Terminal` in Spotlight). Open up `Terminal` or another command line client of your choice and confirm that both `node` and `npm` are available:
+Po instalacji należy sprawdzić czy wszystkie składniki oprogramowania działają tak jak powinny. Znajdź terminal znajdujący się w folderze `/Applications/Utilities` (lub poprzez wpisanie w Spotlight słowa `Terminal`). Otwórz terminal lub inny wiersz poleceń i sprawdź czy zarówno `node` jak i `npm` są dostępne.:
 
 ```sh
 # Ta komenda powinna wypisać wersje Node.js
@@ -19,8 +19,7 @@ node -v
 # Ta komenda powinna wypisać wersje npm
 npm -v
 ```
-
-If both commands printed a version number, you are all set! Before you get started, you might want to install a [code editor](#a-good-editor) suited for JavaScript development.
+Jeżeli obie komendy zwróciły wynik w postaci numeru wersji, wszystko jest przygotowane! Przed zacznięciem pracy, zalecamy zainstalowanie [edytora](#a-good-editor) przygotowanego dla języka JavaScript.
 
 ## Konfigurowanie systemu Windows
 
